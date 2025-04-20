@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_leafdiagnosis">
+
+    <fragment
+        android:id="@+id/navigation_market"
+        android:name="com.example.farmforecast.ui.market2.CommodityPriceFragment"
+        tools:layout="@layout/fragment_commodity_price" />
+
+    <fragment
+        android:id="@+id/navigation_leafdiagnosis"
+        android:name="com.example.farmforecast.ui.diagnosis.LeafDiagnosis"
+        tools:layout="@layout/fragment_leafdiagnosis" />
+
+    <fragment
+        android:id="@+id/navigation_crop_recommend"
+        android:name="com.example.farmforecast.ui.suggestion.CropSuggestionFragment"
+        tools:layout="@layout/fragment_crop_suggestion" />
+</navigation>
