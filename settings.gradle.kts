@@ -19,6 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "My Application last"
+rootProject.name = "FarmForecast"
 include(":app")
- 
